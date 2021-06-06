@@ -38,6 +38,9 @@ html, p, body{
   width: 100%;
   margin-top: 50px;
 }
+#welcome-section{
+  padding: 5% 0;
+}
 .welcome-div{
   text-align: center;
 }
@@ -84,15 +87,17 @@ html, p, body{
   padding-top: 4%;
   width:90%;
 }
-.see-more{
+#see-more{
   margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
 }
 .design-works-heading{
   width: 80%;
 }
 @media screen and (max-width: 992px) {
   .design-works-heading{
-    width: 100%;
+    width: 110%;
     padding-top: 16%;
   }
   .sample-work-image{
@@ -102,10 +107,17 @@ html, p, body{
     display: block;
   }
   .welcome-image{
-    width: 50%;
+    width: 70%;
   }
   .form-input{
     width: 70%;
+  }
+  .icon{
+    height: 180px;
+  }
+  #see-more{
+    font-size: 44px;
+    font-family:
   }
 }
 
@@ -135,7 +147,7 @@ html, p, body{
   margin-left: 0;
 }
 #technical-works-heading{
-  padding-bottom: 100px;
+  padding: 8% 0 12% 0;
 }
 .leave-a-message-heading{
   width: 80%;
@@ -161,7 +173,7 @@ html, p, body{
   text-align: center;
 }
 #contact-section{
-  padding: 5% 0;
+  padding: 8% 0;
     background-color: #89F0AD;
 }
 .contact-back-message{
