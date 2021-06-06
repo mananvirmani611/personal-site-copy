@@ -3,8 +3,170 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-  </head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+    </head>
   <body>
-      <img src="design.jpg" alt="" style="width:100%;">
+
+    <section id="navig-bar">
+      <div class="navigation-bar">
+          <a href="#" class="navigation-items">HOME</a>
+          <a href="#" class="navigation-items">SHOP</a>
+          <a href="#" class="navigation-items">GALLERY</a>
+          <a href="#" class="navigation-items">FAQS</a>
+          <a href="#" class="navigation-items">CONTACT ME</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="">
+        <img src="front-image.jpg" alt="" class="main-image">
+      </div>
+    </section>
+
+
+    <section>
+      <div class="welcome-div">
+        <img src="welcome-text.jpg" class="welcome-image" alt="">
+
+        <p class="welcome-text-paragraph">
+           This is a place for people who love to doodle, have fun, and be creative in their everyday lives.
+        </p>
+
+        <p class="welcome-text-paragraph-2">Feel free to browse through the catalogue of Amanda’s photo and video content for daily art inspiration.</p>
+
+        <div class="icons">
+          <a href="https://www.instagram.com/mananvirmani611/" class="icon-links">
+            <img src="insta.jpg" class="icon" alt="">
+          </a>
+          <a href="#" class="icon-links">
+            <img src="fb.jpg" class="icon" alt="">
+          </a>
+          <a href="#" class="icon-links">
+            <img src="yt.jpg" class="icon" alt="">
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="design-works">
+      <div class="design-works" style="background-image: url('flowers-design-works.png'); background-repeat:no-repeat;">
+          <div class="inside-container">
+
+              <img src="design-works-heading.png" class="design-works-heading" alt="">
+
+              <img class="sample-work-image" src="random-images/1.jpg" alt="">
+
+
+              <br>
+              <div class="button-div">
+                <button type="button" name="button" class="see-more btn-success btn-lg">See more</button>
+
+              </div>
+
+          </div>
+
+
+
+
+    </section>
+
+
+    <section id="technical-works-heading">
+      <img src="tech-works-heading.jpg" alt="" class="tech-works-heading">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left-div" id="left-div">
+            I am a learner in the field of android and web development. I have made some mobile applications and websites during my learning process.
+            <br>
+            Click the button below to have a look at applications and websites that I had made:
+            <br>
+            <button type="button" class="btn-lg btn-success" id="green-button-1" name="button">Click Here</button>
+          </div>
+
+        </div>
+
+        <!-- <hr class="div-break-rule"> -->
+
+        <div class="col-lg-6">
+          <div class="right-div" id="right-div">
+            I also share my knowledge related to Web development. I write some short blog posts through which I could share my knowledge with other people.
+            <br>
+              Click below to reach my blog page:
+              <br>
+              <button type="button" class="btn-lg btn-success" id="green-button-2" name="button">Click Here</button>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <div class="row">
+        <div class="col-lg-7 left-contact-div">
+          <img src="leave-a-message.png" alt="" class="leave-a-message-heading">
+          <div class="">
+            <p class="contact-back-message">I will surely contact you back in 12 hours.</p>
+          </div>
+          <img src="stars.png" alt="" class="stars-image">
+
+        </div>
+
+        <div class="col-lg-5 right-contact-div">
+          <form class="" action="index.html" method="post">
+            <div class="">
+              <input type="text" class="form-input" name="" value="" placeholder="YOUR FIRST NAME">
+            </div>
+            <div class="">
+              <input type="text" class="form-input" name="" value="" placeholder="YOUR EMAIL ID">
+            </div>
+            <textarea name="name" class="form-input" rows="8" cols="80" placeholder="YOUR MESSAGE"></textarea>
+            <br>
+            <button id="form-submit-button" type="submit" name="button" class="btn btn-lg btn-success">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+    <section id="last-section">
+      <div class="row">
+        <div class="col-lg-6 left-div-last">
+          <h6><a href="#" class="last-item">HOME</a></h6>
+          <h6><a href="#" class="last-item">BLOG</a></h6>
+          <h6><a href="#" class="last-item">CONTACT</a></h6>
+          <h6><a href="#" class="last-item">MY COLLECTION</a></h6>
+
+        </div>
+        <div class="col-lg-6 right-div-last">
+          <a href="https://www.instagram.com/mananvirmani611/" class="icon-links">
+            <img src="insta.jpg" class="icon" alt="">
+          </a>
+          <a href="#" class="icon-links">
+            <img src="fb.jpg" class="icon" alt="">
+          </a>
+          <a href="#" class="icon-links">
+            <img src="yt.jpg" class="icon" alt="">
+          </a>
+        </div>
+      </div>
+
+      <hr>
+      <p style="font-weight:bold; text-align:center;">© Manan Virmani</p>
+
+
+    </section>
+    <script src="index.js">
+
+    </script>
   </body>
+
 </html>
